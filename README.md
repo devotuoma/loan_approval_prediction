@@ -2,7 +2,7 @@ Loan Approval Predictor - Complete Implementation with Detailed Documentation
 
 Project Description
 
-This project develops a machine learning system to predict loan approval decisions based on applicant information. The system automates the loan screening process by analyzing patterns in historical loan data and building predictive models that can assist financial institutions in making consistent, data-driven lending deci.
+This project develops a machine learning system to predict loan approval decisions based on applicant information. The system automates the loan screening process by analyzing patterns in historical loan data and building predictive models that can assist financial institutions in making consistent, data-driven lending dec.
 
 Table of Contents
 1. Project Setup and Data Loading
