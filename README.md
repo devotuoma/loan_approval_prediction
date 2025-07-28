@@ -1,4 +1,4 @@
-Loan Approval Predictor - Complete Implementation with Detailed Documentation
+Loan Approval Predictor - Complete Implementation with Detailed Documentatio
 
 Project Description
 
