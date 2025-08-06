@@ -15,72 +15,91 @@ Table of Contents
 7. Project Summary Report
 
 
+
+
+
 Dataset
+
 The dataset (Loan_Train.csv) contains 614 samples with 13 features including:
 
-Loan_ID: Unique loan ID
+. Loan_ID: Unique loan ID
 
-Gender: Applicant's gender
+. Gender: Applicant's gender
 
-Married: Marital status
+. Married: Marital status
 
-Dependents: Number of dependents
+. Dependents: Number of dependents
 
-Education: Education level
+. Education: Education level
 
-Self_Employed: Self-employment status
+. Self_Employed: Self-employment status
 
-ApplicantIncome: Applicant's income
+. ApplicantIncome: Applicant's income
 
-CoapplicantIncome: Co-applicant's income
+. CoapplicantIncome: Co-applicant's income
 
-LoanAmount: Loan amount in thousands
+. LoanAmount: Loan amount in thousands
 
-Loan_Amount_Term: Term of loan in months
+. Loan_Amount_Term: Term of loan in months
 
-Credit_History: Credit history meets guidelines
+. Credit_History: Credit history meets guidelines
 
-Property_Area: Urban/Semi-Urban/Rural
+. Property_Area: Urban/Semi-Urban/Rural
 
-Loan_Status: Loan approved (Y/N) - Target variable
+. Loan_Status: Loan approved (Y/N) - Target variable
+
+
+
+
 
 Key Findings from EDA
+
 The dataset shows a class imbalance with 68.7% loans approved and 31.3% rejected
+
 
 Important relationships were found between loan approval and:
 
-Credit history
+. Credit history
 
-Applicant income
+. Applicant income
 
-Property area
+. Property area
 
-Education level
+. Education level
 
-Several features contain missing values that need to be handled
+. Several features contain missing values that need to be handled
+
+
+
 
 Models Implemented
+
 The notebook implements and compares two classification models:
 
-Logistic Regression
+. Logistic Regression
 
-Decision Tree Classifier
+. Decision Tree Classifier
+
+
 
 Model performance is evaluated using:
 
-Accuracy
+. Accuracy
 
-Precision
+. Precision
 
-Recall
+. Recall
 
-F1-score
+. F1-score
 
-ROC-AUC score
+. ROC-AUC score
 
-Confusion matrix
+. Confusion matrix
+
+
 
 Requirements
+
 To run this notebook, you'll need:
 
 Python 3.x
@@ -97,26 +116,34 @@ Seaborn
 
 Scikit-learn
 
+
+
+
 Usage
-Clone the repository
 
-Install required packages: pip install -r requirements.txt
+i. Clone the repository
 
-Open the Jupyter notebook: jupyter notebook Loan_Approval_Prediction.ipynb
+ii. Install required packages: pip install -r requirements.txt
 
-Run all cells to reproduce the analysis
+iii. Open the Jupyter notebook: jupyter notebook Loan_Approval_Prediction.ipynb
+
+iv. Run all cells to reproduce the analysis
+
+
+
 
 Future Improvements
-Handle class imbalance using techniques like SMOTE
 
-Experiment with more advanced models (Random Forest, XGBoost)
+i. Handle class imbalance using techniques like SMOTE
 
-Perform hyperparameter tuning
+ii. Experiment with more advanced models (Random Forest, XGBoost)
 
-Deploy the model as a web application
+iii. Perform hyperparameter tuning
 
-License
-This project is licensed under the MIT License.
+iv. Deploy the model as a web application
+
+Contributors
+Otuoma Erick
 
 
 
