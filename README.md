@@ -89,6 +89,17 @@ Key Activities:
 Target Variable Analysis: Understanding loan approval distribution (68% approved, 32% rejected) Categorical Analysis: Examining how gender, marital status, education, etc. relate to loan approval Numerical Analysis: Studying income patterns, loan amounts, and their distributions Correlation Analysis: Identifying relationships between numerical variables Advanced Insights: Creating derived features and business-relevant metrics.
 <img width="1065" height="439" alt="E1" src="https://github.com/user-attachments/assets/3a5b4797-4732-43c8-a967-59bd530aa564" />
 
+<img width="1080" height="500" alt="E2" src="https://github.com/user-attachments/assets/d508576e-374b-44f5-93a1-09b7830dc6d5" />
+
+
+<img width="1075" height="496" alt="E3" src="https://github.com/user-attachments/assets/fcb12294-8615-40e9-a186-950e8f8f5da6" />
+<img width="634" height="534" alt="E4" src="https://github.com/user-attachments/assets/91c10d60-291e-4a22-b060-a3b09797f4ed" />
+<img width="737" height="550" alt="E5" src="https://github.com/user-attachments/assets/da7c53ff-8489-47f4-afa2-24edf9a503cb" />
+
+
+
+
+
 
 
 
