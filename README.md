@@ -20,7 +20,7 @@ Table of Contents
 
 
 
-Project Setup and Data Loading
+1. Project Setup and Data Loading
 
 Description
 
@@ -73,7 +73,7 @@ The dataset (Loan_Train.csv) contains 614 samples with 13 features including:
 
 
 
-Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA)
 
 
 
@@ -128,18 +128,70 @@ Expected Outcomes:
 
 
 
-3. Important relationships were found between loan approval and:
 
 
-. Credit history
 
-. Applicant income
 
-. Property area
 
-. Education level
+3. Data Preprocessing
 
-. Several features contain missing values that need to be handled
+Description
+
+Data preprocessing is critical for model performance. This stage involves cleaning the data, handling missing values, encoding categorical variables, creating new features, and preparing the dataset for machine learning algorithms. We ensure data quality and consistency while maximizing information retention.
+
+
+Stage Explanation
+
+Purpose: Transform raw data into a clean, high-quality dataset suitable for machine learning algorithms.
+
+Key Activities:
+
+. Missing Value Imputation: Strategic filling using mode for categorical and median for numerical variables.
+
+. Feature Engineering: Creating 6 new derived features (Total_Income, Income_to_Loan_Ratio, etc.)
+
+. Categorical Encoding: Converting text categories to numerical format using Label Encoding
+
+. Outlier Detection: Identifying extreme values using IQR method (keeping them for now)
+
+. Data Validation: Ensuring no infinite values, proper data types, and complete cases
+
+
+New Features Created:
+
+1.Total_Income: Combined household income
+
+2.Income_to_Loan_Ratio: Debt-to-income indicator
+
+3.Has_Coapplicant: Binary flag for joint applications
+
+4.Income_Category: Low/Medium/High/Very High income segments
+
+5.Loan_Category: Small/Medium/Large/Very Large loan amounts
+
+6.Term_Category: Short/Medium/Long loan durations
+
+
+Key Strategies:
+
+1.Mode imputation for categorical missing values (most common category)
+
+2.Median imputation for numerical missing values (robust to outliers)
+
+3.Label encoding instead of one-hot encoding (preserves memory and works well with tree models)
+
+4.Business-driven feature engineering based on domain knowledge
+
+
+Expected Outcomes:
+
+. Zero missing values in final dataset
+
+. 14 features ready for modeling (8 original + 6 engineered)
+
+. Proper data types and no infinite values
+
+. Enhanced predictive power through derived features
 
 
 
