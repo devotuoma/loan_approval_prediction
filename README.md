@@ -274,28 +274,27 @@ Max depth 8 to prevent overfitting Min 20 samples per split,
 
    FINAL RECOMMENDATIONS
    
-1. CREDIT HISTORY is the most important factor - Prioritize applicants with good credit history
-  
-2. INCOME VERIFICATION should be thorough - Total income is a strong predictor
-   
-3. PROPERTY AREA matters - Urban applications show different approval patterns
-   
-4. Consider implementing a HYBRID APPROACH using both models for different scenarios
+CREDIT HISTORY is the most important factor - Prioritize applicants with good credit history
 
+INCOME VERIFICATION should be thorough - Total income is a strong predictor
    
-5. REGULAR MODEL RETRAINING is recommended as new data becomes available
+PROPERTY AREA matters - Urban applications show different approval patterns
    
-6. Implement EXPLAINABLE AI features to help loan officers understand decisions
+Consider implementing a HYBRID APPROACH using both models for different scenarios
+
+REGULAR MODEL RETRAINING is recommended as new data becomes available
+   
+Implement EXPLAINABLE AI features to help loan officers understand decisions
     
-7. Consider additional features like employment history and existing loans
+Consider additional features like employment history and existing loans
     
-8. Set up MONITORING SYSTEMS to track model performance over time
+Set up MONITORING SYSTEMS to track model performance over time
 
 
 
 
 
-6. Requirements
+7. Requirements
 
 
 To run this notebook, you'll need:
@@ -320,7 +319,7 @@ Scikit-learn
 
 
 
-7. Usage
+8.  Usage
 
 i. Clone the repository
 
@@ -335,7 +334,7 @@ iv. Run all cells to reproduce the analysis
 
 
 
-8. Future Improvements
+9. Future Improvements
 
 i. Handle class imbalance using techniques like SMOTE
 
@@ -349,7 +348,7 @@ iv. Deploy the model as a web application
 
 
 
-9. Contributors
+10. Contributors
 
 
 Otuoma Erick - Team Lead
