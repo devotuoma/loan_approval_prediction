@@ -57,6 +57,10 @@ Key Findings from EDA
 The dataset shows a class imbalance with 68.7% loans approved and 31.3% rejected
 
 
+
+
+
+
 Important relationships were found between loan approval and:
 
 . Credit history
@@ -72,6 +76,9 @@ Important relationships were found between loan approval and:
 
 
 
+
+
+
 Models Implemented
 
 The notebook implements and compares two classification models:
@@ -79,6 +86,9 @@ The notebook implements and compares two classification models:
 . Logistic Regression
 
 . Decision Tree Classifier
+
+
+
 
 
 
@@ -95,6 +105,10 @@ Model performance is evaluated using:
 . ROC-AUC score
 
 . Confusion matrix
+
+
+
+
 
 
 
@@ -119,6 +133,9 @@ Scikit-learn
 
 
 
+
+
+
 Usage
 
 i. Clone the repository
@@ -132,6 +149,8 @@ iv. Run all cells to reproduce the analysis
 
 
 
+
+
 Future Improvements
 
 i. Handle class imbalance using techniques like SMOTE
@@ -141,6 +160,10 @@ ii. Experiment with more advanced models (Random Forest, XGBoost)
 iii. Perform hyperparameter tuning
 
 iv. Deploy the model as a web application
+
+
+
+
 
 Contributors
 Otuoma Erick
