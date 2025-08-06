@@ -18,6 +18,14 @@ Table of Contents
 
 
 
+
+Project Setup and Data Loading
+
+Description
+
+This stage involves setting up the development environment, importing necessary libraries, and loading the loan dataset. We establish the foundation for our machine learning pipeline by importing essential Python libraries for data manipulation, visualization, and machine learning.
+
+
 1. Dataset
 
 The dataset (Loan_Train.csv) contains 614 samples with 13 features including:
