@@ -20,7 +20,7 @@ Table of Contents
 
 
 
-1. Project Setup and Data Loading
+Project Setup and Data Loading
 
 Description
 
