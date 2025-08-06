@@ -87,6 +87,30 @@ Stage Explanation Purpose: Gain deep insights into data patterns, relationships,
 Key Activities:
 
 Target Variable Analysis: Understanding loan approval distribution (68% approved, 32% rejected) Categorical Analysis: Examining how gender, marital status, education, etc. relate to loan approval Numerical Analysis: Studying income patterns, loan amounts, and their distributions Correlation Analysis: Identifying relationships between numerical variables Advanced Insights: Creating derived features and business-relevant metrics.
+<img width="1065" height="439" alt="E1" src="https://github.com/user-attachments/assets/3a5b4797-4732-43c8-a967-59bd530aa564" />
+
+
+
+
+Findings:
+
+. Credit history is the strongest predictor (96% vs 8% approval rate)
+
+. Property area shows significant variation (Semiurban: 68%, Urban: 67%, Rural: 61%)
+
+. Higher total income correlates with better approval chances
+
+. Moderate class imbalance exists but is manageable
+
+Expected Outcomes:
+
+. Clear understanding of data quality and missing values
+
+. Identification of most influential features
+
+. Business insights for decision-making
+
+. Data-driven preprocessing strategy
 
 
 
