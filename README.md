@@ -70,16 +70,23 @@ The dataset (Loan_Train.csv) contains 614 samples with 13 features including:
 
 
 
+
+
+
 Exploratory Data Analysis (EDA)
+
+
 
 Description
 
 EDA is crucial for understanding the patterns, relationships, and characteristics in our loan dataset. This stage involves comprehensive data exploration including target variable distribution, feature relationships, missing value analysis, and identifying potential insights that will guide our modeling approach.
 
 
+Stage Explanation Purpose: Gain deep insights into data patterns, relationships, and characteristics that will inform our modeling strategy.
 
+Key Activities:
 
-The dataset shows a class imbalance with 68.7% loans approved and 31.3% rejected
+Target Variable Analysis: Understanding loan approval distribution (68% approved, 32% rejected) Categorical Analysis: Examining how gender, marital status, education, etc. relate to loan approval Numerical Analysis: Studying income patterns, loan amounts, and their distributions Correlation Analysis: Identifying relationships between numerical variables Advanced Insights: Creating derived features and business-relevant metrics.
 
 
 
