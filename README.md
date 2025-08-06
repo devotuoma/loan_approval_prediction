@@ -353,7 +353,7 @@ iv. Deploy the model as a web application
 
 Otuoma Erick - Team Lead
 
-Eve Suzanne
+Susan Muthoki
 
 Martsellah Osachi
 
@@ -361,7 +361,7 @@ Belinder Adhiambo
 
 Sharon Ngala
 
-Imani
+Imani Lunjala
 
 
 
