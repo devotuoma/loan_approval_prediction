@@ -18,7 +18,7 @@ Table of Contents
 
 
 
-Dataset
+1. Dataset
 
 The dataset (Loan_Train.csv) contains 614 samples with 13 features including:
 
@@ -62,7 +62,7 @@ The dataset (Loan_Train.csv) contains 614 samples with 13 features including:
 
 
 
-Key Findings from EDA
+2. Key Findings from EDA
 
 
 
@@ -74,7 +74,7 @@ The dataset shows a class imbalance with 68.7% loans approved and 31.3% rejected
 
 
 
-Important relationships were found between loan approval and:
+3. Important relationships were found between loan approval and:
 
 
 . Credit history
@@ -95,7 +95,7 @@ Important relationships were found between loan approval and:
 
 
 
-Models Implemented
+4. Models Implemented
 
 
 The notebook implements and compares two classification models:
@@ -109,7 +109,7 @@ The notebook implements and compares two classification models:
 
 
 
-Model performance is evaluated using:
+5. Model performance is evaluated using:
 
 . Accuracy
 
@@ -129,7 +129,7 @@ Model performance is evaluated using:
 
 
 
-Requirements
+6. Requirements
 
 
 To run this notebook, you'll need:
@@ -154,7 +154,7 @@ Scikit-learn
 
 
 
-Usage
+7. Usage
 
 i. Clone the repository
 
@@ -169,7 +169,7 @@ iv. Run all cells to reproduce the analysis
 
 
 
-Future Improvements
+8. Future Improvements
 
 i. Handle class imbalance using techniques like SMOTE
 
@@ -183,10 +183,15 @@ iv. Deploy the model as a web application
 
 
 
-Contributors
+9. Contributors
 
 
-Otuoma Erick
+Otuoma Erick - Team Lead
+Eve Suzanne
+Martsellah Osachi
+Belinder Adhiambo
+Sharon Ngala
+Imani
 
 
 
