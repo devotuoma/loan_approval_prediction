@@ -16,8 +16,9 @@ Table of Contents
 
 
 
-1. Project Setup and Data Loading
-2. 
+
+
+1 Project Setup and Data Loading 
 Description
 This initial stage establishes the foundation for the machine learning pipeline by setting up the development environment, importing essential libraries, and loading the loan dataset.
 Key Activities
