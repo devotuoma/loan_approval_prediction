@@ -15,8 +15,16 @@ Table of Contents
 7. Project Summary Report
 
 
+
+
+
+
+
+
 1. Project Setup and Data Loading
+
 Description
+
 This initial stage establishes the foundation for the machine learning pipeline by setting up the development environment, importing essential libraries, and loading the loan dataset.
 
 Key Activities
