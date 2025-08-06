@@ -19,14 +19,14 @@ Table of Contents
 
 
 
+
 Project Setup and Data Loading
 
 Description
 
 This stage involves setting up the development environment, importing necessary libraries, and loading the loan dataset. We establish the foundation for our machine learning pipeline by importing essential Python libraries for data manipulation, visualization, and machine learning.
 
-
-1. Dataset
+Dataset
 
 The dataset (Loan_Train.csv) contains 614 samples with 13 features including:
 
@@ -70,7 +70,11 @@ The dataset (Loan_Train.csv) contains 614 samples with 13 features including:
 
 
 
-2. Key Findings from EDA
+Exploratory Data Analysis (EDA)
+
+Description
+
+EDA is crucial for understanding the patterns, relationships, and characteristics in our loan dataset. This stage involves comprehensive data exploration including target variable distribution, feature relationships, missing value analysis, and identifying potential insights that will guide our modeling approach.
 
 
 
