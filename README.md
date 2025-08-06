@@ -61,7 +61,11 @@ The dataset (Loan_Train.csv) contains 614 samples with 13 features including:
 
 
 
+
 Key Findings from EDA
+
+
+
 
 The dataset shows a class imbalance with 68.7% loans approved and 31.3% rejected
 
@@ -71,6 +75,7 @@ The dataset shows a class imbalance with 68.7% loans approved and 31.3% rejected
 
 
 Important relationships were found between loan approval and:
+
 
 . Credit history
 
@@ -88,7 +93,10 @@ Important relationships were found between loan approval and:
 
 
 
+
+
 Models Implemented
+
 
 The notebook implements and compares two classification models:
 
@@ -122,6 +130,7 @@ Model performance is evaluated using:
 
 
 Requirements
+
 
 To run this notebook, you'll need:
 
