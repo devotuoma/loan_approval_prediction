@@ -201,14 +201,39 @@ Expected Outcomes:
 
 
 
-4. Models Implemented
+4. Model Development
+
+Description
+
+This stage focuses on building and training two different machine learning models as required: Logistic Regression and Decision Tree. We implement proper train-test splitting, feature scaling where needed, model training with appropriate hyperparameters, and cross-validation for robust performance estimation.
 
 
-The notebook implements and compares two classification models:
+Stage Explanation
 
-. Logistic Regression
+Purpose: Build and train two complementary machine learning models to predict loan approval with proper validation and interpretability analysis.
 
-. Decision Tree Classifier
+Key Activities:
+
+Train-Test Split: 80/20 split with stratification to maintain class balance
+
+Feature Scaling: StandardScaler for Logistic Regression (tree models don't need scaling)
+
+Model Configuration: Optimized hyperparameters to prevent overfitting
+
+Training Process: Fit both models with timing and convergence monitoring
+
+Cross-Validation: 5-fold CV with multiple metrics for robust evaluation
+
+Interpretability: Analyze coefficients and feature importance
+
+
+Model Configurations:
+
+Logistic Regression
+L2 regularization (C=1.0) to prevent overfitting liblinear solver for small datasets StandardScaler preprocessing Maximum 1000 iterations for convergence
+
+Decision Tree
+Max depth 8 to prevent overfitting Min 20 samples per split,
 
 
 
@@ -228,6 +253,14 @@ The notebook implements and compares two classification models:
 . ROC-AUC score
 
 . Confusion matrix
+<img width="532" height="550" alt="L1" src="https://github.com/user-attachments/assets/ec3c4618-678d-42a2-b7f3-faa05c4697a5" />
+<img width="565" height="560" alt="L2" src="https://github.com/user-attachments/assets/f1f82237-102f-4938-8e42-e48d2faaa10e" />
+<img width="796" height="486" alt="L3" src="https://github.com/user-attachments/assets/c099e7fc-609a-453d-84b5-d3602b2ceeff" />
+<img width="791" height="447" alt="L4" src="https://github.com/user-attachments/assets/a4e45f61-2675-4e2c-8dbb-cac17d9c051b" />
+
+
+
+
 
 
 
