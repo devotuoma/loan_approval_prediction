@@ -52,6 +52,15 @@ The dataset (Loan_Train.csv) contains 614 samples with 13 features including:
 
 
 
+
+
+
+
+
+
+
+
+
 Key Findings from EDA
 
 The dataset shows a class imbalance with 68.7% loans approved and 31.3% rejected
@@ -166,6 +175,8 @@ iv. Deploy the model as a web application
 
 
 Contributors
+
+
 Otuoma Erick
 
 
