@@ -274,7 +274,7 @@ Max depth 8 to prevent overfitting Min 20 samples per split,
 
    FINAL RECOMMENDATIONS
    
-CREDIT HISTORY is the most important factor - Prioritize applicants with good credit history
+CREDIT HISTORY is the most important factor - Prioritise applicants with good credit history
 
 INCOME VERIFICATION should be thorough - Total income is a strong predictor
    
